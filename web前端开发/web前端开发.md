@@ -9,14 +9,15 @@ tags:
 由三个语雀知识库（web前端开发-1 / web前端开发-2 / 实习收获）合并整理，按主题重组为统一文档树。
 
 - [[web前端开发/HTML+CSS/HTML+CSS|HTML+CSS]]
+	- [[web前端开发/HTML+CSS/HTML|HTML]]
 	- [[web前端开发/HTML+CSS/CSS|CSS]]
 	- [[web前端开发/HTML+CSS/八股文问题|八股文问题]]
 	- [[web前端开发/HTML+CSS/颜色|颜色]]
 - [[web前端开发/JavaScript/JavaScript|JavaScript]]
 	- [[web前端开发/JavaScript/高频使用的方法|高频使用的方法]]
-	- [[web前端开发/JavaScript/WebAPIs/WebAPIs|WebAPIs]]
-		- [[web前端开发/JavaScript/WebAPIs/BOM APIs|BOM APIs]]
-		- [[web前端开发/JavaScript/WebAPIs/DOM API|DOM API]]
+- [[web前端开发/WebAPIs/WebAPIs|WebAPIs]]
+	- [[web前端开发/WebAPIs/BOM APIs|BOM APIs]]
+	- [[web前端开发/WebAPIs/DOM API|DOM API]]
 - [[web前端开发/React/React|React]]
 	- [[web前端开发/React/React.js|React.js]]
 	- [[web前端开发/React/react router|react router]]
