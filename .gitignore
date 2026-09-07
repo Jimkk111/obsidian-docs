@@ -1,0 +1,9 @@
+# Obsidian transient state
+.obsidian/workspace.json
+.obsidian/cache/
+.obsidian/workspace-mobile.json
+.zcode/
+
+# OS junk
+Thumbs.db
+.DS_Store
