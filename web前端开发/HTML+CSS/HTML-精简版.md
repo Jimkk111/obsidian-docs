@@ -156,5 +156,5 @@ tags:
 ## 笔记
 
 - [[web前端开发/HTML+CSS/HTML|HTML（详细版）]]
-- [[web前端开发/HTML+CSS/八股文问题|八股文问题]]
+- [[web前端开发/HTML+CSS/面试题目|面试题目]]
 - [[web前端开发/HTML+CSS/颜色|颜色]]

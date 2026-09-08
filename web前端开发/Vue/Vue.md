@@ -12,5 +12,7 @@ tags:
 
 - [[web前端开发/Vue/Pinia|Pinia]]
 - [[web前端开发/Vue/Vue Router|Vue Router]]
-- [[web前端开发/Vue/Vue教程|Vue教程]]
+- [[web前端开发/Vue/Vue2教程|Vue2教程]]
+- [[web前端开发/Vue/Vue3教程|Vue3教程]]
 - [[web前端开发/Vue/关于Vue.js细枝末节的原理|关于Vue.js细枝末节的原理]]
+- [[web前端开发/Vue/面试题目|面试题目]]
