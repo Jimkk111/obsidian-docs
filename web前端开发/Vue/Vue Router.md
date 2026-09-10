@@ -473,12 +473,12 @@ router.addRoutes([routeRecord, ...])   // 已废弃
 
 ### 十、历史模式
 
-| 模式 | Router 4（Vue3） | Router 3（Vue2） | URL 形式 | 说明 |
-| --- | --- | --- | --- | --- |
-| HTML5 模式 | `createWebHistory()` | `mode: 'history'` | `/user/1`（无 #） | 推荐，需服务器配置 fallback 到 index.html |
-| Hash 模式 | `createWebHashHistory()` | `mode: 'hash'`（默认） | `/#/user/1` | 无需服务器配置，SEO 较差 |
-| Memory 模式 | `createMemoryHistory()` | `mode: 'abstract'` | 无 URL | SSR / 测试环境使用 |
-
+| 模式        | Router 4（Vue3）           | Router 3（Vue2）     | URL 形式          | 说明                              |
+| --------- | ------------------------ | ------------------ | --------------- | ------------------------------- |
+| HTML5 模式  | `createWebHistory()`     | `mode: 'history'`  | `/user/1`（无 # ） | 推荐，需服务器配置 fallback 到 index.html |
+| Hash 模式   | `createWebHashHistory()` | `mode: 'hash'`（默认） | `/#/user/1`     | 无需服务器配置，SEO 较差                  |
+| Memory 模式 | `createMemoryHistory()`  | `mode: 'abstract'` | 无 URL           | SSR / 测试环境使用                    |
+history模式为什么需要服务器配置fallback到index.html？因为history模式基于historyAPI的pushState和replaceState实现，直接修改了历史记录，浏览器会用新的路径向服务器发送请求，如果路径不存在，会报404，所以需要服务器配置将所有404请求全部重定向回index.html（fallback）。
 ### 十一、Router 3 与 Router 4 差异对照表
 
 | | Vue Router 3（Vue2） | Vue Router 4（Vue3） |
