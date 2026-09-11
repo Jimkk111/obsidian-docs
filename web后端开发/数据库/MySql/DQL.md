@@ -30,7 +30,8 @@ FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT
 ```
 
 因此 WHERE 中不能用 SELECT 里起的别名（此时别名还没生成），而 ORDER BY 可以。
-
+- **表别名**在 `FROM` 阶段定义，后续所有阶段都能用。
+- **列别名**在 `SELECT` 阶段才定义，所以**在它之前执行的阶段，标准 SQL 不允许使用列别名**。
 ## 二、基础查询
 
 ```sql
