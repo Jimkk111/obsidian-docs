@@ -10,4 +10,4 @@ tags:
 
 ## 笔记
 
-- [[web前端开发/计算机网络/网络请求API/axios|axios]]
+- [[axios-旧版|axios-旧版]]
